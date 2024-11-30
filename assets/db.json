@@ -1,0 +1,46 @@
+{
+  "bookings": [
+    {
+      "id": "1",
+      "userId": "1",
+      "eventId": 2,
+      "ticketCount": 5,
+      "bookingDate": "2024-11-27T10:52:00"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "eventId": 1,
+      "ticketCount": 2,
+      "bookingDate": "2024-11-27T10:52:00"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "eventId": 2,
+      "ticketCount": 5,
+      "bookingDate": "2024-11-27T10:52:00"
+    },
+    {
+      "id": "",
+      "userId": "1",
+      "eventId": 3,
+      "ticketCount": 5,
+      "bookingDate": "2024-11-27T10:52:00"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "eventId": "2",
+      "ticketCount": "5",
+      "bookingDate": "2024-11-27T10:52:00"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "eventId": "2",
+      "ticketCount": "5",
+      "bookingDate": "2024-11-27T10:52:00"
+    }
+  ]
+}
