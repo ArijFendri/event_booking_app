@@ -44,17 +44,18 @@ Une application Flutter pour réserver des événements, dotée d'une API MockAP
     - **Endpoints :**  
       - [Utilisateurs](https://mockapi.io/projects/6744e241b4e2e04abea3f4bd/user)  
       - [Événements](https://mockapi.io/projects/6744e241b4e2e04abea3f4bd/events)  
-  - JSON Server pour simuler une API REST locale, Démarrez le serveur JSON avec: (json-server --watch db.json --port 3000) 
-
+  - JSON Server pour simuler une API REST locale, Démarrez le serveur JSON avec :  
+    ```bash
+    json-server --watch db.json --port 3000
+    ```  
 
 ---  
 
 ## 🚀 Configuration et exécution  
 
-###  Clonez le projet  
+### Clonez le projet  
 ```bash  
 git clone https://github.com/votre-utilisateur/votre-repo.git  
 cd votre-repo  
-flutter pub get (pour installer les dépendances)
+flutter pub get  
 flutter run  
- 
