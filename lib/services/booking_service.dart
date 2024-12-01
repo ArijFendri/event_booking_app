@@ -9,14 +9,14 @@ class BookingService {
 
   // Utilise l'URL appropriée en fonction de l'environnement
   String get _baseUrl {
-    bool isLocal = true; // Passe à false pour utiliser MockAPI (utilisateurs uniquement)
+    bool isLocal = true; 
     return isLocal ? _baseUrlLocal : _baseUrlMockAPI;
   }
 
   /// Récupérer les réservations d'un utilisateur spécifique
   Future<List<Booking>> getBookingsForUser(String userId) async {
     try {
-      // Pour les réservations, on utilise toujours l'URL de JSON Server (local)
+      
       final url = '$_baseUrl?userId=$userId'; // Filtre par userId
       print('Making request to URL: $url');
 
@@ -42,7 +42,7 @@ class BookingService {
   /// Créer une réservation
   Future<Booking> createBooking(Booking booking) async {
     try {
-      // Pour créer une réservation, on utilise toujours l'URL de JSON Server (local)
+     
       final response = await http.post(
         Uri.parse(_baseUrlLocal),
         headers: {'Content-Type': 'application/json'},

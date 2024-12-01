@@ -28,12 +28,7 @@ class AuthProvider with ChangeNotifier {
           orElse: () => null,
         );
 
-         Future<void> initializeAuth() async {
-    // Simuler une vérification d'authentification (exemple avec SharedPreferences)
-    await Future.delayed(Duration(seconds: 2)); // Simulation du chargement
-    _isAuthenticated = false; // Changer pour true si l'utilisateur est connecté
-    notifyListeners();
-  }
+     
 
         if (user != null) {
           _token = user['token'];
